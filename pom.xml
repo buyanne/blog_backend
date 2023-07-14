@@ -8,11 +8,11 @@
         <version>2.2.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.rawchen</groupId>
+    <groupId>com.buyanne.blog_backend</groupId>
     <artifactId>blog-api</artifactId>
     <version>0.0.1</version>
     <name>blog-api</name>
-    <url>https://rawchen.com/</url>
+    <url>https://buyanne.blog_backend.com/</url>
     <description>Blog API</description>
 
     <properties>

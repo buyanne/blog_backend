@@ -2,10 +2,10 @@ server:
   port: 8090
 custom:
   blog:
-    name:WXD&YSY'Blog
+    name: WXD&YSY' Blog
   url:
-    cms:http://localhost:8081
-    website:http://localhost:8080
+    cms: http://localhost:8081
+    website: http://localhost:8080
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
