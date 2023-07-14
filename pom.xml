@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.buyanne.blog_backend</groupId>
-    <artifactId>blog-api</artifactId>
+    <artifactId>blog_backend</artifactId>
     <version>0.0.1</version>
     <name>blog-api</name>
     <url>https://buyanne.blog_backend.com/</url>
