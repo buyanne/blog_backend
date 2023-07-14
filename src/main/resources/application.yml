@@ -1,0 +1,48 @@
+
+server:
+  port: 8090
+custom:
+  blog:
+    name:WXD&YSY'Blog
+  url:
+    cms:http://localhost:8081
+    website:http://localhost:8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/blog1?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+  redis:
+    host: 127.0.0.1
+    password:
+    port: 6379
+    database: 0
+    timeout: 10000ms
+  mail:
+    host: smtp.qq.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    username: 1903683577@qq.com
+    password: xxx
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    root: info
+    com.buyanne: debug
+  file:
+    path: log/blog-dev
+
+token:
+  expireTime: 60*60*24*3*1000
+  secretKey: abcdefghijklmnopqrstuvwxyz
+
