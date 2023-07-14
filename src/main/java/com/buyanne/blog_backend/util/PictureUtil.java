@@ -6,6 +6,6 @@ public class PictureUtil {
 		int m = 0;
 		int n = 9;
 		int temp=m+(int)(Math.random()*(n+1-m));
-		return "https://cdn.jsdelivr.net/gh/buyanne.blog_backend/JsDelivr/ContentThumb/"+temp+".jpg";
+		return "https://cdn.jsdelivr.net/gh/buyanne/JsDelivr/ContentThumb/"+temp+".jpg";
 	}
 }
