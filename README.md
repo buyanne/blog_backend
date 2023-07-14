@@ -79,8 +79,8 @@ JS 依赖及参考的 css：[axios](https://github.com/axios/axios)、[moment](h
 2. 修改配置信息`blog-api/src/main/resources/application.yml`
 3. 安装 Redis 并启动
 4. 启动后端SpringBoot服务
-5. 分别在`blog-cms`和`blog-view`目录下执行`npm install`安装依赖
-6. 分别在`blog-cms`和`blog-view`目录下执行`npm run serve`启动前后台页面
+5. 分别在`blog-ms`和`blog-view`目录下执行`npm install`安装依赖
+6. 分别在`blog-ms`和`blog-view`目录下执行`npm run serve`启动前后台页面
 
 
 
