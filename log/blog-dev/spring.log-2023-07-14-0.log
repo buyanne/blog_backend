@@ -1149,21 +1149,21 @@ Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionExcep
 2023-07-14 13:08:07.215  INFO 6616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2023-07-14 13:08:07.215  INFO 6616 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1028 ms
 2023-07-14 13:08:07.814  INFO 6616 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  320 msec using expression: classpath*:UserAgents/**/*.yaml
-2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
 2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
-2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:08:07.815  INFO 6616 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:08:07.817  INFO 6616 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
 2023-07-14 13:08:08.229  INFO 6616 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
 2023-07-14 13:08:08.230  INFO 6616 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
 2023-07-14 13:08:08.621  WARN 6616 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
 2023-07-14 13:08:08.634  WARN 6616 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.url.cms' in value "${custom.url.cms}"
 2023-07-14 13:08:08.764  INFO 6616 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-07-14 13:08:08.772  INFO 6616 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2023-07-14 13:08:08.772  INFO 6616 --- [restartedMain] ConditionEvaluationReportLoggingListener :
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2023-07-14 13:08:08.778 ERROR 6616 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
@@ -1220,21 +1220,21 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cu
 2023-07-14 13:08:37.776  INFO 30700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2023-07-14 13:08:37.776  INFO 30700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 883 ms
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  323 msec using expression: classpath*:UserAgents/**/*.yaml
-2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
 2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
-2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:08:38.336  INFO 30700 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:08:38.337  INFO 30700 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
 2023-07-14 13:08:38.701  INFO 30700 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
 2023-07-14 13:08:38.702  INFO 30700 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
 2023-07-14 13:08:39.082  WARN 30700 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
 2023-07-14 13:08:39.092  WARN 30700 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.url.website' in value "${custom.url.website}"
 2023-07-14 13:08:39.212  INFO 30700 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-07-14 13:08:39.220  INFO 30700 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2023-07-14 13:08:39.220  INFO 30700 --- [restartedMain] ConditionEvaluationReportLoggingListener :
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2023-07-14 13:08:39.225 ERROR 30700 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
@@ -1257,7 +1257,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.buyanne.blog_backend.BlogApiApplication.main(BlogApiApplication.java:10)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogApiApplication.java:10)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1291,21 +1291,21 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cu
 2023-07-14 13:09:33.147  INFO 22100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2023-07-14 13:09:33.148  INFO 22100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 983 ms
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  297 msec using expression: classpath*:UserAgents/**/*.yaml
-2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
 2023-07-14 13:09:33.705  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
-2023-07-14 13:09:33.706  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:09:33.706  INFO 22100 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:09:33.708  INFO 22100 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
 2023-07-14 13:09:34.138  INFO 22100 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
 2023-07-14 13:09:34.138  INFO 22100 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
 2023-07-14 13:09:34.489  WARN 22100 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
 2023-07-14 13:09:34.503  WARN 22100 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.url.cms' in value "${custom.url.cms}"
 2023-07-14 13:09:34.737  INFO 22100 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-07-14 13:09:34.748  INFO 22100 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2023-07-14 13:09:34.748  INFO 22100 --- [restartedMain] ConditionEvaluationReportLoggingListener :
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2023-07-14 13:09:34.753 ERROR 22100 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
@@ -1328,7 +1328,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.buyanne.blog_backend.BlogApiApplication.main(BlogApiApplication.java:10)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogApiApplication.java:10)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1362,14 +1362,14 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cu
 2023-07-14 13:11:19.185  INFO 18060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2023-07-14 13:11:19.185  INFO 18060 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 995 ms
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  295 msec using expression: classpath*:UserAgents/**/*.yaml
-2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
 2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
-2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:11:19.753  INFO 18060 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   :
 2023-07-14 13:11:19.755  INFO 18060 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
 2023-07-14 13:11:20.145  INFO 18060 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
 2023-07-14 13:11:20.146  INFO 18060 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
@@ -1392,7 +1392,7 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cu
 2023-07-14 13:11:20.623  INFO 18060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2023-07-14 13:11:20.692  INFO 18060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2023-07-14 13:11:20.696 DEBUG 18060 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
-2023-07-14 13:11:20.709 DEBUG 18060 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 13:11:20.709 DEBUG 18060 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters:
 2023-07-14 13:11:20.733 DEBUG 18060 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
 2023-07-14 13:11:20.772 ERROR 18060 --- [restartedMain] c.b.blog_backend.util.IpAddressUtils     : initIp2regionResource exception:
 
@@ -1423,7 +1423,7 @@ java.io.FileNotFoundException: class path resource [ipdb/ip2region.db] cannot be
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.buyanne.blog_backend.BlogApiApplication.main(BlogApiApplication.java:10)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogApiApplication.java:10)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1472,3 +1472,398 @@ java.lang.NullPointerException: null
 2023-07-14 13:11:44.860 DEBUG 18060 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 2023-07-14 13:11:44.862 DEBUG 18060 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), null, Windows 10(String), Edge 114.0.0.0(String), 36(Integer), 2023-07-14 13:11:44.263(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
 2023-07-14 13:11:44.865 DEBUG 18060 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 13:12:21.052  INFO 18060 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 13:12:21.054  INFO 18060 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:12:21.055  INFO 18060 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 13:12:21.055  INFO 18060 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 13:12:21.055  INFO 18060 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 13:12:21.055  INFO 18060 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 13:12:21.180  INFO 18060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 13:12:21.187  INFO 18060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 13:20:50.227  INFO 30084 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 30084 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 13:20:50.246 DEBUG 30084 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 13:20:50.247  INFO 30084 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 13:20:50.265  INFO 30084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 13:20:50.265  INFO 30084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 13:20:50.617  INFO 30084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 13:20:50.618  INFO 30084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 13:20:50.636  INFO 30084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2023-07-14 13:20:51.099  INFO 30084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 13:20:51.104  INFO 30084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 13:20:51.104  INFO 30084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 13:20:51.149  INFO 30084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 13:20:51.149  INFO 30084 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 884 ms
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  274 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 13:20:51.653  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 13:20:51.654  INFO 30084 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 13:20:51.655  INFO 30084 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 13:20:51.970  INFO 30084 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 13:20:51.971  INFO 30084 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 13:20:52.301  WARN 30084 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 13:20:52.365  INFO 30084 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 13:20:52.369  INFO 30084 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 13:20:52.369  INFO 30084 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 13:20:52.370  INFO 30084 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 13:20:52.370  INFO 30084 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 13:20:52.370  INFO 30084 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 13:20:52.370  INFO 30084 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 13:20:52.370  INFO 30084 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58db372
+2023-07-14 13:20:52.385  INFO 30084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 13:20:52.439  INFO 30084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 13:20:52.442 DEBUG 30084 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 13:20:52.452 DEBUG 30084 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 13:20:52.461 DEBUG 30084 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 13:20:52.613  INFO 30084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:20:52.882  INFO 30084 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1332c3dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@36f033bb, org.springframework.security.web.header.HeaderWriterFilter@7937cdc6, org.springframework.web.filter.CorsFilter@52309f6c, org.springframework.security.web.authentication.logout.LogoutFilter@57e7418c, com.buyanne.blog_backend.config.JwtLoginFilter@4efacc9c, com.buyanne.blog_backend.config.JwtFilter@7f00f2fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16d97c91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1913ba4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a29e2e1, org.springframework.security.web.session.SessionManagementFilter@7e10d852, org.springframework.security.web.access.ExceptionTranslationFilter@7481fb46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28c7fc76]
+2023-07-14 13:20:52.917  INFO 30084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 13:20:52.928  INFO 30084 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 13:20:52.928  INFO 30084 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 13:20:52.939  INFO 30084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 13:20:52.940  INFO 30084 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 2.942 seconds (JVM running for 3.448)
+2023-07-14 13:21:23.192  INFO 30084 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 13:21:23.193  INFO 30084 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:21:23.194  INFO 30084 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 13:21:23.194  INFO 30084 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 13:21:23.194  INFO 30084 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 13:21:23.194  INFO 30084 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 13:21:23.324  INFO 30084 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 13:21:23.327  INFO 30084 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 13:21:29.504  INFO 27352 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 27352 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 13:21:29.524 DEBUG 27352 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 13:21:29.525  INFO 27352 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 13:21:29.544  INFO 27352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 13:21:29.544  INFO 27352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 13:21:29.855  INFO 27352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 13:21:29.856  INFO 27352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 13:21:29.868  INFO 27352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2023-07-14 13:21:29.951  WARN 27352 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.buyanne.blog_backend]' package. Please check your configuration.
+2023-07-14 13:21:30.183  INFO 27352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 13:21:30.187  INFO 27352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 13:21:30.188  INFO 27352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 13:21:30.235  INFO 27352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 13:21:30.235  INFO 27352 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 691 ms
+2023-07-14 13:21:30.338  INFO 27352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:21:30.431  WARN 27352 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 13:21:30.524  WARN 27352 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+2023-07-14 13:21:30.524  INFO 27352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:21:30.526  INFO 27352 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-14 13:21:30.531  INFO 27352 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-14 13:21:30.536 ERROR 27352 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogBackendApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f2a26b0c.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f2a26b0c$$FastClassBySpringCGLIB$$2ffb574a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f2a26b0c.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\AboutMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.About'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.About
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+
+2023-07-14 13:23:24.339  INFO 30264 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 30264 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 13:23:24.341 DEBUG 30264 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 13:23:24.341  INFO 30264 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 13:23:24.365  INFO 30264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 13:23:24.365  INFO 30264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 13:23:24.718  INFO 30264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 13:23:24.719  INFO 30264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 13:23:24.730  INFO 30264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2023-07-14 13:23:24.809  WARN 30264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.buyanne.blog_backend]' package. Please check your configuration.
+2023-07-14 13:23:25.065  INFO 30264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 13:23:25.070  INFO 30264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 13:23:25.070  INFO 30264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 13:23:25.121  INFO 30264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 13:23:25.122  INFO 30264 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 757 ms
+2023-07-14 13:23:25.286  INFO 30264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:23:25.348  WARN 30264 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 13:23:25.459  WARN 30264 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+2023-07-14 13:23:25.460  INFO 30264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:23:25.462  INFO 30264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-14 13:23:25.471  INFO 30264 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-14 13:23:25.476 ERROR 30264 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogBackendApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1be7711.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1be7711$$FastClassBySpringCGLIB$$ff98763c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f1be7711.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\BlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.model.vo.SearchBlog'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.model.vo.SearchBlog
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+
+2023-07-14 13:25:05.586  INFO 17596 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 17596 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 13:25:05.587 DEBUG 17596 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 13:25:05.587  INFO 17596 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 13:25:05.606  INFO 17596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 13:25:05.607  INFO 17596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 13:25:05.903  INFO 17596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 13:25:05.904  INFO 17596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 13:25:05.914  INFO 17596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2023-07-14 13:25:05.984  WARN 17596 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.buyanne.blog_backend]' package. Please check your configuration.
+2023-07-14 13:25:06.206  INFO 17596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 13:25:06.210  INFO 17596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 13:25:06.210  INFO 17596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 13:25:06.255  INFO 17596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 13:25:06.255  INFO 17596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 648 ms
+2023-07-14 13:25:06.354  INFO 17596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:25:06.445  WARN 17596 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 13:25:06.572  WARN 17596 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+2023-07-14 13:25:06.572  INFO 17596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:25:06.573  INFO 17596 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-14 13:25:06.579  INFO 17596 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-14 13:25:06.583 ERROR 17596 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.buyanne.blog_backend.BlogBackendApplication.main(BlogBackendApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d6122ee.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d6122ee$$FastClassBySpringCGLIB$$f1872cf9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d6122ee.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\java\project\MyBlog2\blog_backend\target\classes\mapper\CommentMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.buyanne.blog_backend.entity.Comment'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.buyanne.blog_backend.entity.Comment
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+
+2023-07-14 13:25:36.018  INFO 29468 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 29468 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 13:25:36.019 DEBUG 29468 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 13:25:36.019  INFO 29468 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 13:25:36.060  INFO 29468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 13:25:36.060  INFO 29468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 13:25:36.407  INFO 29468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 13:25:36.409  INFO 29468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 13:25:36.421  INFO 29468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2023-07-14 13:25:36.509  WARN 29468 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.buyanne.blog_backend]' package. Please check your configuration.
+2023-07-14 13:25:36.755  INFO 29468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 13:25:36.760  INFO 29468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 13:25:36.760  INFO 29468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 13:25:36.809  INFO 29468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 13:25:36.809  INFO 29468 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 749 ms
+2023-07-14 13:25:36.952  INFO 29468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 13:25:37.046  WARN 29468 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 13:25:37.441  INFO 29468 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 13:25:37.447  INFO 29468 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 13:25:37.447  INFO 29468 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 13:25:37.448  INFO 29468 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 13:25:37.448  INFO 29468 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 13:25:37.448  INFO 29468 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 13:25:37.448  INFO 29468 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 13:25:37.448  INFO 29468 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ef9111e
+2023-07-14 13:25:37.483  INFO 29468 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a79f865f-bf0c-4ff2-a41a-1a18ccc34d59
+
+2023-07-14 13:25:37.526  INFO 29468 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14c5d5e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@225903c4, org.springframework.security.web.header.HeaderWriterFilter@540862e1, org.springframework.security.web.csrf.CsrfFilter@114f9569, org.springframework.security.web.authentication.logout.LogoutFilter@65c39c54, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@75b8492a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1fd93b3b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@30a32433, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55b963d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62e2362c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ac8114a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40c41963, org.springframework.security.web.session.SessionManagementFilter@6e93f943, org.springframework.security.web.access.ExceptionTranslationFilter@699e77e0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5518379a]
+2023-07-14 13:25:37.548  INFO 29468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 13:25:37.558  INFO 29468 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 13:25:37.558  INFO 29468 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 13:25:37.576  INFO 29468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 13:25:37.578  INFO 29468 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 1.824 seconds (JVM running for 2.381)
+2023-07-14 13:25:43.004  INFO 29468 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 13:25:43.005  INFO 29468 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 13:25:43.008  INFO 29468 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
