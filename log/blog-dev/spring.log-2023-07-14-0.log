@@ -3331,3 +3331,934 @@ Identify and stop the process that's listening on port 8090 or configure this ap
 2023-07-14 14:02:26.180 DEBUG 22764 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 2023-07-14 14:02:26.180 DEBUG 22764 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 7(Integer), 2023-07-14 14:02:26.177(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
 2023-07-14 14:02:26.182 DEBUG 22764 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:14:11.541 DEBUG 22764 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:14:11.542 DEBUG 22764 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 11(Integer), 2023-07-14 14:14:11.535(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:14:11.544 DEBUG 22764 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:17:29.754 DEBUG 22764 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:17:29.755 DEBUG 22764 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 14(Integer), 2023-07-14 14:17:29.753(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:17:29.757 DEBUG 22764 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:17:33.911 DEBUG 22764 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:17:33.912 DEBUG 22764 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 18(Integer), 2023-07-14 14:17:33.909(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:17:33.913 DEBUG 22764 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:17:50.396 DEBUG 22764 --- [http-nio-8090-exec-9] c.b.b.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from user where username = ? limit 1
+2023-07-14 14:17:50.397 DEBUG 22764 --- [http-nio-8090-exec-9] c.b.b.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2023-07-14 14:17:50.398 DEBUG 22764 --- [http-nio-8090-exec-9] c.b.b.mapper.UserMapper.findByUsername   : <==      Total: 1
+2023-07-14 14:17:50.576 DEBUG 22764 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:17:50.577 DEBUG 22764 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 15(Integer), 2023-07-14 14:17:50.573(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:17:50.579 DEBUG 22764 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:18:15.379 DEBUG 22764 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:18:15.379 DEBUG 22764 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 9(Integer), 2023-07-14 14:18:15.377(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:18:15.381 DEBUG 22764 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:18:26.742 DEBUG 22764 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:18:26.744 DEBUG 22764 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 12(Integer), 2023-07-14 14:18:26.74(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:18:26.745 DEBUG 22764 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:18:40.100  INFO 22764 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:18:40.106  INFO 22764 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:18:40.108  INFO 22764 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:18:40.111  INFO 22764 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:18:40.111  INFO 22764 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:18:40.112  INFO 22764 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:18:40.255  INFO 22764 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:18:40.266  INFO 22764 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:18:45.446  INFO 29980 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 29980 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:18:45.447 DEBUG 29980 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:18:45.447  INFO 29980 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:18:45.469  INFO 29980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:18:45.469  INFO 29980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:18:45.883  INFO 29980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:18:45.884  INFO 29980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:18:45.905  INFO 29980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2023-07-14 14:18:46.449  INFO 29980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:18:46.455  INFO 29980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:18:46.455  INFO 29980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:18:46.507  INFO 29980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:18:46.507  INFO 29980 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1038 ms
+2023-07-14 14:18:47.086  INFO 29980 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  301 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:18:47.087  INFO 29980 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:18:47.089  INFO 29980 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:18:47.454  INFO 29980 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:18:47.454  INFO 29980 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:18:47.822  INFO 29980 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:18:47.829  INFO 29980 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:18:47.829  INFO 29980 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:18:47.830  INFO 29980 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:18:47.830  INFO 29980 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:18:47.830  INFO 29980 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:18:47.830  INFO 29980 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:18:47.830  INFO 29980 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6e3ddc9d
+2023-07-14 14:18:47.849  INFO 29980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:18:47.932  INFO 29980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:18:47.936 DEBUG 29980 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:18:47.947 DEBUG 29980 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:18:47.960 DEBUG 29980 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:18:48.007  WARN 29980 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:18:48.144  INFO 29980 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:18:48.447  INFO 29980 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f022e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@20caabe8, org.springframework.security.web.header.HeaderWriterFilter@51a5f284, org.springframework.web.filter.CorsFilter@5f97a7c1, org.springframework.security.web.authentication.logout.LogoutFilter@30f55fc7, com.buyanne.blog_backend.config.JwtLoginFilter@24e2794c, com.buyanne.blog_backend.config.JwtFilter@4f3d6044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44b122b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c45db26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bde945e, org.springframework.security.web.session.SessionManagementFilter@3aa5acc1, org.springframework.security.web.access.ExceptionTranslationFilter@7d88826d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c267a3f]
+2023-07-14 14:18:48.486  INFO 29980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 14:18:48.499  INFO 29980 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:18:48.499  INFO 29980 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:18:48.513  INFO 29980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 14:18:48.515  INFO 29980 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 3.39 seconds (JVM running for 4.019)
+2023-07-14 14:18:52.055  INFO 29980 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 14:18:52.056  INFO 29980 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 14:18:52.066  INFO 29980 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2023-07-14 14:18:52.325 DEBUG 29980 --- [http-nio-8090-exec-2] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:18:52.326 DEBUG 29980 --- [http-nio-8090-exec-2] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:18:52.329 DEBUG 29980 --- [http-nio-8090-exec-2] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:18:52.396  INFO 29980 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-07-14 14:18:53.030  INFO 29980 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 634 msec : Hashmap 114881, Ranges map:2900
+2023-07-14 14:18:53.072 DEBUG 29980 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:18:53.074 DEBUG 29980 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 92(Integer), 2023-07-14 14:18:52.381(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:18:53.075 DEBUG 29980 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:19:03.317 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from user where username = ? limit 1
+2023-07-14 14:19:03.317 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2023-07-14 14:19:03.322 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.mapper.UserMapper.findByUsername   : <==      Total: 1
+2023-07-14 14:19:03.699 DEBUG 29980 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:19:03.702 DEBUG 29980 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:19:03.704 DEBUG 29980 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:19:03.713 DEBUG 29980 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:19:03.714 DEBUG 29980 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 22(Integer), 2023-07-14 14:19:03.709(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:19:03.716 DEBUG 29980 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:20:03.936 DEBUG 29980 --- [http-nio-8090-exec-5] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:20:03.937 DEBUG 29980 --- [http-nio-8090-exec-5] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:20:03.939 DEBUG 29980 --- [http-nio-8090-exec-5] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:20:03.944 DEBUG 29980 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:20:03.945 DEBUG 29980 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 12(Integer), 2023-07-14 14:20:03.942(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:20:03.946 DEBUG 29980 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:20:28.450 DEBUG 29980 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:20:28.451 DEBUG 29980 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 10(Integer), 2023-07-14 14:20:28.449(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:20:28.452 DEBUG 29980 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:20:30.575 DEBUG 29980 --- [http-nio-8090-exec-6] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:20:30.576 DEBUG 29980 --- [http-nio-8090-exec-6] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 3(Long)
+2023-07-14 14:20:30.584 DEBUG 29980 --- [http-nio-8090-exec-6] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:20:30.687 DEBUG 29980 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:20:30.689 DEBUG 29980 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":3,"jwt":""}(String), 查看博客(String), test测试(String), 文章标题：test测试(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 109(Integer), 2023-07-14 14:20:30.684(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:20:30.690 DEBUG 29980 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:26:08.254 DEBUG 29980 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:26:08.255 DEBUG 29980 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 1(Long)
+2023-07-14 14:26:08.257 DEBUG 29980 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:26:08.279 DEBUG 29980 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:26:08.280 DEBUG 29980 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), 对IOC控制反转的理解?(String), 文章标题：对IOC控制反转的理解?(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 22(Integer), 2023-07-14 14:26:08.278(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:26:08.281 DEBUG 29980 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:27:57.586 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:27:57.586 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 1(Long)
+2023-07-14 14:27:57.588 DEBUG 29980 --- [http-nio-8090-exec-4] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:27:57.593 DEBUG 29980 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:27:57.594 DEBUG 29980 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), (String), (String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 5(Integer), 2023-07-14 14:27:57.592(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:27:57.594 DEBUG 29980 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:28:03.682 DEBUG 29980 --- [http-nio-8090-exec-3] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:28:03.683 DEBUG 29980 --- [http-nio-8090-exec-3] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 1(Long)
+2023-07-14 14:28:03.685 DEBUG 29980 --- [http-nio-8090-exec-3] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:28:03.695 DEBUG 29980 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:28:03.697 DEBUG 29980 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), (String), (String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 9(Integer), 2023-07-14 14:28:03.692(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:28:03.698 DEBUG 29980 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:33:11.315 DEBUG 29980 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:33:11.316 DEBUG 29980 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 14(Integer), 2023-07-14 14:33:11.313(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:33:11.318 DEBUG 29980 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:33:38.014 DEBUG 29980 --- [http-nio-8090-exec-2] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:33:38.015 DEBUG 29980 --- [http-nio-8090-exec-2] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 3(Long)
+2023-07-14 14:33:38.019 DEBUG 29980 --- [http-nio-8090-exec-2] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:33:38.027 DEBUG 29980 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:33:38.028 DEBUG 29980 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":3,"jwt":""}(String), 查看博客(String), test测试(String), 文章标题：test测试(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 11(Integer), 2023-07-14 14:33:38.025(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:33:38.029 DEBUG 29980 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:34:09.707 DEBUG 29980 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:34:09.708 DEBUG 29980 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:34:09.710 DEBUG 29980 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:34:09.721 DEBUG 29980 --- [task-11] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:34:09.723 DEBUG 29980 --- [task-11] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 15(Integer), 2023-07-14 14:34:09.718(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:34:09.725 DEBUG 29980 --- [task-11] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:34:59.382 DEBUG 29980 --- [task-12] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:34:59.384 DEBUG 29980 --- [task-12] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 6(Integer), 2023-07-14 14:34:59.381(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:34:59.384 DEBUG 29980 --- [task-12] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:36:06.063 DEBUG 29980 --- [task-13] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:36:06.063 DEBUG 29980 --- [task-13] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 8(Integer), 2023-07-14 14:36:06.061(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:36:06.064 DEBUG 29980 --- [task-13] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:46:42.204 DEBUG 29980 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:46:42.205 DEBUG 29980 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:46:42.206 DEBUG 29980 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:46:46.603 DEBUG 29980 --- [task-14] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:46:46.604 DEBUG 29980 --- [task-14] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 8(Integer), 2023-07-14 14:46:46.602(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:46:46.605 DEBUG 29980 --- [task-14] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:47:07.071  INFO 23644 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 23644 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:47:07.074 DEBUG 23644 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:47:07.074  INFO 23644 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:47:07.098  INFO 23644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:47:07.098  INFO 23644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:47:07.528  INFO 23644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:47:07.529  INFO 23644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:47:07.550  INFO 23644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2023-07-14 14:47:08.103  INFO 23644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:47:08.109  INFO 23644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:47:08.109  INFO 23644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:47:08.162  INFO 23644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:47:08.162  INFO 23644 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1064 ms
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  301 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:47:08.739  INFO 23644 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:47:08.741  INFO 23644 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:47:09.105  INFO 23644 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:47:09.106  INFO 23644 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:47:09.501  INFO 23644 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:47:09.508  INFO 23644 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:47:09.509  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:47:09.509  INFO 23644 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:47:09.509  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:47:09.509  INFO 23644 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:47:09.509  INFO 23644 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:47:09.510  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@551bd75b
+2023-07-14 14:47:09.527  INFO 23644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:47:09.598  INFO 23644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:47:09.602 DEBUG 23644 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:47:09.615 DEBUG 23644 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:47:09.627 DEBUG 23644 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:47:09.674  WARN 23644 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:47:09.812  INFO 23644 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:47:10.134  INFO 23644 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35dc65a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f109f94, org.springframework.security.web.header.HeaderWriterFilter@2d5b9dc1, org.springframework.web.filter.CorsFilter@11e1cac1, org.springframework.security.web.authentication.logout.LogoutFilter@4f241669, com.buyanne.blog_backend.config.JwtLoginFilter@8668f89, com.buyanne.blog_backend.config.JwtFilter@37eba586, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1296b64b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@680ba20d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61cc37be, org.springframework.security.web.session.SessionManagementFilter@4a6842fb, org.springframework.security.web.access.ExceptionTranslationFilter@49698433, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b20ec53]
+2023-07-14 14:47:10.174  WARN 23644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-07-14 14:47:10.185  INFO 23644 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:47:10.185  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:47:10.194  INFO 23644 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-14 14:47:10.198  INFO 23644 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-14 14:47:10.201 ERROR 23644 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2023-07-14 14:47:10.204  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:47:10.206  INFO 23644 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:47:10.206  INFO 23644 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:47:10.206  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:47:10.206  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:47:10.206  INFO 23644 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:47:10.326  INFO 23644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:47:10.333  INFO 23644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:47:25.134  INFO 29980 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:47:25.136  INFO 29980 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:47:25.136  INFO 29980 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:47:25.136  INFO 29980 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:47:25.136  INFO 29980 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:47:25.136  INFO 29980 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:47:25.254  INFO 29980 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:47:25.260  INFO 29980 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:47:37.331  INFO 31072 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 31072 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:47:37.334 DEBUG 31072 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:47:37.334  INFO 31072 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:47:37.360  INFO 31072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:47:37.360  INFO 31072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:47:37.758  INFO 31072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:47:37.760  INFO 31072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:47:37.779  INFO 31072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2023-07-14 14:47:38.287  INFO 31072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:47:38.293  INFO 31072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:47:38.293  INFO 31072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:47:38.342  INFO 31072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:47:38.342  INFO 31072 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 982 ms
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  305 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:47:38.917  INFO 31072 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:47:38.919  INFO 31072 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:47:39.266  INFO 31072 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:47:39.267  INFO 31072 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:47:39.640  INFO 31072 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:47:39.646  INFO 31072 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:47:39.646  INFO 31072 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:47:39.646  INFO 31072 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:47:39.647  INFO 31072 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:47:39.647  INFO 31072 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:47:39.647  INFO 31072 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:47:39.647  INFO 31072 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ec937b1
+2023-07-14 14:47:39.666  INFO 31072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:47:39.736  INFO 31072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:47:39.740 DEBUG 31072 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:47:39.764 DEBUG 31072 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:47:39.776 DEBUG 31072 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:47:39.821  WARN 31072 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:47:39.953  INFO 31072 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:47:40.249  INFO 31072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71d0eed3, org.springframework.security.web.context.SecurityContextPersistenceFilter@73eb75e1, org.springframework.security.web.header.HeaderWriterFilter@5e7c395d, org.springframework.web.filter.CorsFilter@4aa08a20, org.springframework.security.web.authentication.logout.LogoutFilter@67926077, com.buyanne.blog_backend.config.JwtLoginFilter@33afca53, com.buyanne.blog_backend.config.JwtFilter@1afdb04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1056840c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50539e12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@777f0b94, org.springframework.security.web.session.SessionManagementFilter@1b9c0f70, org.springframework.security.web.access.ExceptionTranslationFilter@3ff5f336, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7157c03]
+2023-07-14 14:47:40.290  INFO 31072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 14:47:40.302  INFO 31072 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:47:40.302  INFO 31072 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:47:40.315  INFO 31072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 14:47:40.317  INFO 31072 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 3.292 seconds (JVM running for 3.883)
+2023-07-14 14:47:48.104  INFO 31072 --- [http-nio-8090-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 14:47:48.104  INFO 31072 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 14:47:48.113  INFO 31072 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-07-14 14:47:48.340 DEBUG 31072 --- [http-nio-8090-exec-5] c.b.b.mapper.UserMapper.findByUsername   : ==>  Preparing: select * from user where username = ? limit 1
+2023-07-14 14:47:48.341 DEBUG 31072 --- [http-nio-8090-exec-5] c.b.b.mapper.UserMapper.findByUsername   : ==> Parameters: admin(String)
+2023-07-14 14:47:48.344 DEBUG 31072 --- [http-nio-8090-exec-5] c.b.b.mapper.UserMapper.findByUsername   : <==      Total: 1
+2023-07-14 14:47:48.577 DEBUG 31072 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:47:48.577 DEBUG 31072 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:47:48.578 DEBUG 31072 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:47:48.610  INFO 31072 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-07-14 14:47:49.197  INFO 31072 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 585 msec : Hashmap 114881, Ranges map:2900
+2023-07-14 14:47:49.232 DEBUG 31072 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:47:49.233 DEBUG 31072 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 35(Integer), 2023-07-14 14:47:48.596(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:47:49.234 DEBUG 31072 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:48:33.064  WARN 31072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s227ms90µs).
+2023-07-14 14:48:36.724 DEBUG 31072 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:48:36.726 DEBUG 31072 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:48:36.727 DEBUG 31072 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:48:36.728 DEBUG 31072 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:48:36.730 DEBUG 31072 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 36240(Integer), 2023-07-14 14:48:36.727(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:48:36.732 DEBUG 31072 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:48:46.104 DEBUG 31072 --- [http-nio-8090-exec-6] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:48:46.104 DEBUG 31072 --- [http-nio-8090-exec-6] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:48:46.105 DEBUG 31072 --- [http-nio-8090-exec-6] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:48:46.113 DEBUG 31072 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:48:46.114 DEBUG 31072 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 966(Integer), 2023-07-14 14:48:46.111(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:48:46.115 DEBUG 31072 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:49:02.525  INFO 31072 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:49:02.528  INFO 31072 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:49:02.528  INFO 31072 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:49:02.529  INFO 31072 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:49:02.529  INFO 31072 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:49:02.529  INFO 31072 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:49:02.658  INFO 31072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:49:02.663  INFO 31072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:49:44.532  INFO 31496 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 31496 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:49:44.533 DEBUG 31496 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:49:44.533  INFO 31496 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:49:44.557  INFO 31496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:49:44.557  INFO 31496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:49:44.945  INFO 31496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:49:44.946  INFO 31496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:49:44.966  INFO 31496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2023-07-14 14:49:45.548  INFO 31496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:49:45.553  INFO 31496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:49:45.553  INFO 31496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:49:45.608  INFO 31496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:49:45.608  INFO 31496 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1051 ms
+2023-07-14 14:49:46.181  INFO 31496 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  296 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:49:46.181  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:49:46.181  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:49:46.181  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:49:46.181  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:49:46.183  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:49:46.183  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:49:46.183  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:49:46.183  INFO 31496 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:49:46.184  INFO 31496 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:49:46.524  INFO 31496 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:49:46.525  INFO 31496 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:49:46.898  INFO 31496 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:49:46.904  INFO 31496 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:49:46.904  INFO 31496 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:49:46.905  INFO 31496 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:49:46.905  INFO 31496 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:49:46.905  INFO 31496 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:49:46.905  INFO 31496 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:49:46.905  INFO 31496 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@56204fb4
+2023-07-14 14:49:46.923  INFO 31496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:49:46.989  INFO 31496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:49:46.993 DEBUG 31496 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:49:47.003 DEBUG 31496 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:49:47.026 DEBUG 31496 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:49:47.086  WARN 31496 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:49:47.224  INFO 31496 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:49:47.520  INFO 31496 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ee0d59f, org.springframework.security.web.context.SecurityContextPersistenceFilter@34563bfe, org.springframework.security.web.header.HeaderWriterFilter@39822768, org.springframework.web.filter.CorsFilter@62eef664, org.springframework.security.web.authentication.logout.LogoutFilter@6e08913a, com.buyanne.blog_backend.config.JwtLoginFilter@4e5eae34, com.buyanne.blog_backend.config.JwtFilter@5a1e6609, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d1c502b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f109f94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72fa1cf8, org.springframework.security.web.session.SessionManagementFilter@3d5cc878, org.springframework.security.web.access.ExceptionTranslationFilter@23b016d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bd413d]
+2023-07-14 14:49:47.559  INFO 31496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 14:49:47.571  INFO 31496 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:49:47.571  INFO 31496 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:49:47.584  INFO 31496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 14:49:47.586  INFO 31496 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 3.36 seconds (JVM running for 4.006)
+2023-07-14 14:49:54.667  INFO 31496 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 14:49:54.667  INFO 31496 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 14:49:54.676  INFO 31496 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-07-14 14:50:49.510  WARN 31496 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s412ms933µs200ns).
+2023-07-14 14:50:49.518  INFO 31496 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023-07-14 14:50:49.538 ERROR 31496 --- [http-nio-8090-exec-2] c.b.b.h.ControllerExceptionHandler       : Request URL : http://localhost:8090/blogs, Exception :
+
+org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:70)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:270)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.convertLettuceAccessException(LettuceHashCommands.java:471)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.hGet(LettuceHashCommands.java:172)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.hGet(DefaultedRedisConnection.java:1048)
+	at org.springframework.data.redis.core.DefaultHashOperations.lambda$get$0(DefaultHashOperations.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:228)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultHashOperations.get(DefaultHashOperations.java:53)
+	at com.buyanne.blog_backend.service.impl.RedisServiceImpl.getBlogInfoPageResultByHash(RedisServiceImpl.java:27)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl.getBlogInfoListByIsPublished(BlogServiceImpl.java:118)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$f75364c4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$f6322808.getBlogInfoListByIsPublished(<generated>)
+	at com.buyanne.blog_backend.controller.BlogController.blogs(BlogController.java:36)
+	at com.buyanne.blog_backend.controller.BlogController$$FastClassBySpringCGLIB$$793249aa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.buyanne.blog_backend.aspect.VisitLogAspect.logAround(VisitLogAspect.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.buyanne.blog_backend.controller.BlogController$$EnhancerBySpringCGLIB$$35d5e963.blogs(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.buyanne.blog_backend.config.JwtFilter.doFilter(JwtFilter.java:34)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:126)
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:69)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy115.hget(Unknown Source)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.hGet(LettuceHashCommands.java:170)
+	... 125 common frames omitted
+Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at io.lettuce.core.ExceptionFactory.createTimeoutException(ExceptionFactory.java:51)
+	at io.lettuce.core.protocol.CommandExpiryWriter.lambda$potentiallyExpire$0(CommandExpiryWriter.java:167)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+
+2023-07-14 14:50:49.543  INFO 31496 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-07-14 14:50:49.560  WARN 31496 --- [http-nio-8090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)]
+2023-07-14 14:50:49.641  INFO 31496 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /127.0.0.1:6379
+2023-07-14 14:50:49.647  INFO 31496 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to 127.0.0.1:6379
+2023-07-14 14:50:49.650 DEBUG 31496 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:50:49.651 DEBUG 31496 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:50:49.652 DEBUG 31496 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:50:50.042  INFO 31496 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 498 msec : Hashmap 114881, Ranges map:2900
+2023-07-14 14:50:50.073 DEBUG 31496 --- [task-1] c.b.b.m.E.saveExceptionLog               : ==>  Preparing: insert into exception_log (uri, method, param, description, error, ip, ip_source, os, browser, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:50:50.075 DEBUG 31496 --- [task-1] c.b.b.m.E.saveExceptionLog               : ==> Parameters: /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:70)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:270)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.convertLettuceAccessException(LettuceHashCommands.java:471)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.hGet(LettuceHashCommands.java:172)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.hGet(DefaultedRedisConnection.java:1048)
+	at org.springframework.data.redis.core.DefaultHashOperations.lambda$get$0(DefaultHashOperations.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:228)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultHashOperations.get(DefaultHashOperations.java:53)
+	at com.buyanne.blog_backend.service.impl.RedisServiceImpl.getBlogInfoPageResultByHash(RedisServiceImpl.java:27)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl.getBlogInfoListByIsPublished(BlogServiceImpl.java:118)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$f75364c4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.buyanne.blog_backend.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$f6322808.getBlogInfoListByIsPublished(<generated>)
+	at com.buyanne.blog_backend.controller.BlogController.blogs(BlogController.java:36)
+	at com.buyanne.blog_backend.controller.BlogController$$FastClassBySpringCGLIB$$793249aa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.buyanne.blog_backend.aspect.VisitLogAspect.logAround(VisitLogAspect.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.buyanne.blog_backend.controller.BlogController$$EnhancerBySpringCGLIB$$35d5e963.blogs(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.buyanne.blog_backend.config.JwtFilter.doFilter(JwtFilter.java:34)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:126)
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:69)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy115.hget(Unknown Source)
+	at org.springframework.data.redis.connection.lettuce.LettuceHashCommands.hGet(LettuceHashCommands.java:170)
+	... 125 more
+Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 10 second(s)
+	at io.lettuce.core.ExceptionFactory.createTimeoutException(ExceptionFactory.java:51)
+	at io.lettuce.core.protocol.CommandExpiryWriter.lambda$potentiallyExpire$0(CommandExpiryWriter.java:167)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 2023-07-14 14:50:49.528(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:50:50.092 DEBUG 31496 --- [task-1] c.b.b.m.E.saveExceptionLog               : <==    Updates: 1
+2023-07-14 14:51:00.556 DEBUG 31496 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:51:00.556 DEBUG 31496 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:51:00.559 DEBUG 31496 --- [http-nio-8090-exec-4] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:51:00.582 DEBUG 31496 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:51:00.584 DEBUG 31496 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 6938(Integer), 2023-07-14 14:51:00.58(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:51:00.585 DEBUG 31496 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:52:12.008  INFO 31496 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:52:12.010  INFO 31496 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:52:12.010  INFO 31496 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:52:12.010  INFO 31496 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:52:12.010  INFO 31496 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:52:12.011  INFO 31496 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:52:12.136  INFO 31496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:52:12.140  INFO 31496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:52:16.529  INFO 19172 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 19172 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:52:16.530 DEBUG 19172 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:52:16.531  INFO 19172 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:52:16.553  INFO 19172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:52:16.553  INFO 19172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:52:16.953  INFO 19172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:52:16.955  INFO 19172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:52:16.976  INFO 19172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2023-07-14 14:52:17.497  INFO 19172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:52:17.503  INFO 19172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:52:17.503  INFO 19172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:52:17.553  INFO 19172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:52:17.553  INFO 19172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1000 ms
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  292 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:52:18.108  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:52:18.109  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:52:18.109  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:52:18.109  INFO 19172 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:52:18.110  INFO 19172 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:52:18.478  INFO 19172 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:52:18.478  INFO 19172 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:52:18.852  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:52:18.858  INFO 19172 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:52:18.858  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:52:18.859  INFO 19172 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:52:18.859  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:52:18.859  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:52:18.859  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:52:18.859  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@59f0aee9
+2023-07-14 14:52:18.878  INFO 19172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:52:18.942  INFO 19172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:52:18.946 DEBUG 19172 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:52:18.957 DEBUG 19172 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:52:18.968 DEBUG 19172 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:52:19.015  WARN 19172 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:52:19.156  INFO 19172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:52:19.476  INFO 19172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a7ce52d, org.springframework.security.web.context.SecurityContextPersistenceFilter@579399a, org.springframework.security.web.header.HeaderWriterFilter@23905f83, org.springframework.web.filter.CorsFilter@6d4d8f7d, org.springframework.security.web.authentication.logout.LogoutFilter@174bf445, com.buyanne.blog_backend.config.JwtLoginFilter@e49af8, com.buyanne.blog_backend.config.JwtFilter@1c7b98ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7eabe68e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7033654f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11a343c1, org.springframework.security.web.session.SessionManagementFilter@61620656, org.springframework.security.web.access.ExceptionTranslationFilter@2936a2a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@362497c3]
+2023-07-14 14:52:19.516  INFO 19172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 14:52:19.528  INFO 19172 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:52:19.528  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:52:19.541  INFO 19172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 14:52:19.543  INFO 19172 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 3.308 seconds (JVM running for 3.878)
+2023-07-14 14:52:22.552  INFO 19172 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 14:52:22.552  INFO 19172 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 14:52:22.562  INFO 19172 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-07-14 14:52:22.796 DEBUG 19172 --- [http-nio-8090-exec-1] c.b.b.m.C.getCategoryNameList            : ==>  Preparing: select category_name from category order by id desc
+2023-07-14 14:52:22.797 DEBUG 19172 --- [http-nio-8090-exec-1] c.b.b.m.C.getCategoryNameList            : ==> Parameters: 
+2023-07-14 14:52:22.799 DEBUG 19172 --- [http-nio-8090-exec-1] c.b.b.m.C.getCategoryNameList            : <==      Total: 2
+2023-07-14 14:52:22.821 DEBUG 19172 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:52:22.822 DEBUG 19172 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:52:22.823 DEBUG 19172 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:52:22.851  INFO 19172 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-07-14 14:52:23.412  INFO 19172 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 560 msec : Hashmap 114881, Ranges map:2900
+2023-07-14 14:52:23.450 DEBUG 19172 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:52:23.452 DEBUG 19172 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 69(Integer), 2023-07-14 14:52:22.837(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:52:23.454 DEBUG 19172 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:52:52.523  INFO 19172 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:52:52.524  INFO 19172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:52:52.525  INFO 19172 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-07-14 14:52:52.525  INFO 19172 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-14 14:52:52.525  INFO 19172 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-14 14:52:52.525  INFO 19172 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-14 14:52:52.643  INFO 19172 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-14 14:52:52.648  INFO 19172 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-14 14:52:56.668  INFO 30260 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Starting BlogBackendApplication on Salvatore with PID 30260 (D:\java\project\MyBlog2\blog_backend\target\classes started by lovef in D:\java\project\MyBlog2\blog_backend)
+2023-07-14 14:52:56.669 DEBUG 30260 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2023-07-14 14:52:56.670  INFO 30260 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : No active profile set, falling back to default profiles: default
+2023-07-14 14:52:56.697  INFO 30260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-14 14:52:56.697  INFO 30260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-14 14:52:57.162  INFO 30260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-14 14:52:57.163  INFO 30260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-14 14:52:57.187  INFO 30260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2023-07-14 14:52:57.770  INFO 30260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-07-14 14:52:57.777  INFO 30260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-14 14:52:57.778  INFO 30260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-07-14 14:52:57.833  INFO 30260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-14 14:52:57.833  INFO 30260 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1136 ms
+2023-07-14 14:52:58.464  INFO 30260 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  322 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-07-14 14:52:58.465  INFO 30260 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-07-14 14:52:58.467  INFO 30260 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-07-14 14:52:58.867  INFO 30260 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-07-14 14:52:58.869  INFO 30260 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-07-14 14:52:59.296  INFO 30260 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-07-14 14:52:59.303  INFO 30260 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@31c2bb04
+2023-07-14 14:52:59.327  INFO 30260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-14 14:52:59.416  INFO 30260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-14 14:52:59.421 DEBUG 30260 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-07-14 14:52:59.434 DEBUG 30260 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : ==> Parameters: 
+2023-07-14 14:52:59.446 DEBUG 30260 --- [restartedMain] c.b.b.m.ScheduleJobMapper.getJobList     : <==      Total: 2
+2023-07-14 14:52:59.520  WARN 30260 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-07-14 14:52:59.688  INFO 30260 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-14 14:53:00.026  INFO 30260 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19085cd7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cd1a39e, org.springframework.security.web.header.HeaderWriterFilter@10e7baa8, org.springframework.web.filter.CorsFilter@3551de91, org.springframework.security.web.authentication.logout.LogoutFilter@5bf29981, com.buyanne.blog_backend.config.JwtLoginFilter@26cfc0ea, com.buyanne.blog_backend.config.JwtFilter@731f4b1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@240036be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73eb75e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@282a4f4b, org.springframework.security.web.session.SessionManagementFilter@74b69acc, org.springframework.security.web.access.ExceptionTranslationFilter@3a1d537, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62d7613f]
+2023-07-14 14:53:00.074  INFO 30260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-14 14:53:00.088  INFO 30260 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-07-14 14:53:00.088  INFO 30260 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-14 14:53:00.103  INFO 30260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-07-14 14:53:00.106  INFO 30260 --- [restartedMain] c.b.blog_backend.BlogBackendApplication  : Started BlogBackendApplication in 3.817 seconds (JVM running for 4.473)
+2023-07-14 14:53:02.684  INFO 30260 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-14 14:53:02.684  INFO 30260 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-14 14:53:02.693  INFO 30260 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-07-14 14:53:02.933 DEBUG 30260 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:53:02.935 DEBUG 30260 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:53:02.938 DEBUG 30260 --- [http-nio-8090-exec-1] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:53:02.991  INFO 30260 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-07-14 14:53:03.537  INFO 30260 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 545 msec : Hashmap 114881, Ranges map:2900
+2023-07-14 14:53:03.571 DEBUG 30260 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:53:03.573 DEBUG 30260 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 74(Integer), 2023-07-14 14:53:02.977(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:53:03.574 DEBUG 30260 --- [task-1] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:54:17.411 DEBUG 30260 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:54:17.413 DEBUG 30260 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 10(Integer), 2023-07-14 14:54:17.411(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:54:17.415 DEBUG 30260 --- [task-2] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:54:19.085 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:54:19.086 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:54:19.088 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:54:19.091 DEBUG 30260 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:54:19.093 DEBUG 30260 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 17(Integer), 2023-07-14 14:54:19.089(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:54:19.094 DEBUG 30260 --- [task-3] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:56:32.183 DEBUG 30260 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:56:32.184 DEBUG 30260 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 10(Integer), 2023-07-14 14:56:32.182(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:56:32.188 DEBUG 30260 --- [task-4] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:56:54.440 DEBUG 30260 --- [http-nio-8090-exec-10] B.getSearchBlogListByQueryAndIsPublished : ==>  Preparing: select id, title, content from blog where is_published=true and password='' and content like ?
+2023-07-14 14:56:54.440 DEBUG 30260 --- [http-nio-8090-exec-10] B.getSearchBlogListByQueryAndIsPublished : ==> Parameters: %teest%(String)
+2023-07-14 14:56:54.441 DEBUG 30260 --- [http-nio-8090-exec-10] B.getSearchBlogListByQueryAndIsPublished : <==      Total: 0
+2023-07-14 14:56:54.446 DEBUG 30260 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:56:54.446 DEBUG 30260 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /searchBlog(String), GET(String), {"query":"teest"}(String), 搜索博客(String), teest(String), 搜索内容：teest(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 23(Integer), 2023-07-14 14:56:54.444(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:56:54.447 DEBUG 30260 --- [task-5] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:56:56.987 DEBUG 30260 --- [http-nio-8090-exec-1] B.getSearchBlogListByQueryAndIsPublished : ==>  Preparing: select id, title, content from blog where is_published=true and password='' and content like ?
+2023-07-14 14:56:56.987 DEBUG 30260 --- [http-nio-8090-exec-1] B.getSearchBlogListByQueryAndIsPublished : ==> Parameters: %te%(String)
+2023-07-14 14:56:56.989 DEBUG 30260 --- [http-nio-8090-exec-1] B.getSearchBlogListByQueryAndIsPublished : <==      Total: 2
+2023-07-14 14:56:56.991 DEBUG 30260 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:56:56.992 DEBUG 30260 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /searchBlog(String), GET(String), {"query":"te"}(String), 搜索博客(String), te(String), 搜索内容：te(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 2(Integer), 2023-07-14 14:56:56.99(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:56:56.993 DEBUG 30260 --- [task-6] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:56:58.485 DEBUG 30260 --- [http-nio-8090-exec-3] B.getSearchBlogListByQueryAndIsPublished : ==>  Preparing: select id, title, content from blog where is_published=true and password='' and content like ?
+2023-07-14 14:56:58.485 DEBUG 30260 --- [http-nio-8090-exec-3] B.getSearchBlogListByQueryAndIsPublished : ==> Parameters: %test%(String)
+2023-07-14 14:56:58.487 DEBUG 30260 --- [http-nio-8090-exec-3] B.getSearchBlogListByQueryAndIsPublished : <==      Total: 1
+2023-07-14 14:56:58.490 DEBUG 30260 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:56:58.490 DEBUG 30260 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /searchBlog(String), GET(String), {"query":"test"}(String), 搜索博客(String), test(String), 搜索内容：test(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 3(Integer), 2023-07-14 14:56:58.488(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:56:58.492 DEBUG 30260 --- [task-7] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:57:01.434 DEBUG 30260 --- [http-nio-8090-exec-4] B.getSearchBlogListByQueryAndIsPublished : ==>  Preparing: select id, title, content from blog where is_published=true and password='' and content like ?
+2023-07-14 14:57:01.434 DEBUG 30260 --- [http-nio-8090-exec-4] B.getSearchBlogListByQueryAndIsPublished : ==> Parameters: %te%(String)
+2023-07-14 14:57:01.435 DEBUG 30260 --- [http-nio-8090-exec-4] B.getSearchBlogListByQueryAndIsPublished : <==      Total: 2
+2023-07-14 14:57:01.438 DEBUG 30260 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:57:01.439 DEBUG 30260 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /searchBlog(String), GET(String), {"query":"te"}(String), 搜索博客(String), te(String), 搜索内容：te(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 2(Integer), 2023-07-14 14:57:01.436(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:57:01.451 DEBUG 30260 --- [task-8] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:57:03.845 DEBUG 30260 --- [http-nio-8090-exec-5] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:57:03.846 DEBUG 30260 --- [http-nio-8090-exec-5] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 1(Long)
+2023-07-14 14:57:03.852 DEBUG 30260 --- [http-nio-8090-exec-5] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:57:03.897 DEBUG 30260 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:57:03.897 DEBUG 30260 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), 对IOC控制反转的理解?(String), 文章标题：对IOC控制反转的理解?(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 50(Integer), 2023-07-14 14:57:03.896(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:57:03.898 DEBUG 30260 --- [task-9] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
+2023-07-14 14:57:15.989 DEBUG 30260 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id = c.id) left join blog_tag as bt on b.id = bt.blog_id) left join tag as t on bt.tag_id = t.id) where b.id = ? and b.is_published = true
+2023-07-14 14:57:15.990 DEBUG 30260 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : ==> Parameters: 1(Long)
+2023-07-14 14:57:15.992 DEBUG 30260 --- [http-nio-8090-exec-7] c.b.b.m.B.getBlogByIdAndIsPublished      : <==      Total: 1
+2023-07-14 14:57:15.993 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-07-14 14:57:15.993 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-07-14 14:57:15.995 DEBUG 30260 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 0
+2023-07-14 14:57:16.000 DEBUG 30260 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-07-14 14:57:16.000 DEBUG 30260 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : ==> Parameters: 9ef85897-f97b-3f9a-90cf-7125c044be52(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), 对IOC控制反转的理解?(String), 文章标题：对IOC控制反转的理解?(String), 192.168.53.198(String), 内网IP|内网IP(String), Windows 10(String), Edge 114.0.0.0(String), 10(Integer), 2023-07-14 14:57:15.999(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79(String)
+2023-07-14 14:57:16.001 DEBUG 30260 --- [task-10] c.b.b.m.VisitLogMapper.saveVisitLog      : <==    Updates: 1
