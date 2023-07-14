@@ -1,4 +1,3 @@
-
 server:
   port: 8090
 custom:
@@ -38,11 +37,11 @@ mybatis:
 logging:
   level:
     root: info
-    com.buyanne: debug
+    com.buyanne.blog_backend: debug
   file:
     path: log/blog-dev
 
 token:
-  expireTime: 60*60*24*3*1000
+  expireTime: 259200000
   secretKey: abcdefghijklmnopqrstuvwxyz
 
