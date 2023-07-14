@@ -1,12 +1,8 @@
-[//]: # (<p align="center">)
-
-[//]: # (	<a href="" target="_blank">)
-
-[//]: # (		<img src="https://cdn.jsdelivr.net/gh/rawchen/JsDelivr/static/blog/favicon-gif.gif" alt="Blog · Logo" style="width: 200px; height: 200px">)
-
-[//]: # (	</a>)
-
-[//]: # (</p>)
+<p align="center">
+	<a href="" target="_blank">
+		<img src="https://cdn.jsdelivr.net/gh/buyanne/JsDelivr/static/blog/favicon-gif.gif" alt="Blog · Logo" style="width: 200px; height: 200px">
+	</a>
+</p>
 <p align="center">
 	<img src="https://img.shields.io/badge/JDK-1.8+-orange">
 	<img src="https://img.shields.io/badge/SpringBoot-2.2.7.RELEASE-brightgreen">
