@@ -13,7 +13,7 @@ import com.buyanne.blog_backend.model.vo.*;
 import com.buyanne.blog_backend.service.BlogService;
 import com.buyanne.blog_backend.service.RedisService;
 import com.buyanne.blog_backend.service.TagService;
-import com.buyanne.blog_backend.task.RedisSyncScheduleTask;
+//import com.buyanne.blog_backend.task.RedisSyncScheduleTask;
 import com.buyanne.blog_backend.util.JacksonUtils;
 import com.buyanne.blog_backend.util.markdown.MarkdownUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,8 +38,6 @@ public class BlogServiceImpl implements BlogService {
 	TagService tagService;
 	@Autowired
 	RedisService redisService;
-	@Autowired
-	RedisSyncScheduleTask redisSyncScheduleTask;
 	//随机博客显示5条
 	private static final int randomBlogLimitNum = 5;
 	//最新推荐博客显示3条
