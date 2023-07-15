@@ -11,7 +11,6 @@ import com.buyanne.blog_backend.model.dto.BlogVisibility;
 import com.buyanne.blog_backend.model.vo.Result;
 import com.buyanne.blog_backend.service.BlogService;
 import com.buyanne.blog_backend.service.CategoryService;
-import com.buyanne.blog_backend.service.CommentService;
 import com.buyanne.blog_backend.service.TagService;
 import com.buyanne.blog_backend.util.PictureUtil;
 import com.buyanne.blog_backend.util.StringUtils;
@@ -33,8 +32,8 @@ public class BlogAdminController {
 	CategoryService categoryService;
 	@Autowired
 	TagService tagService;
-	@Autowired
-	CommentService commentService;
+//	@Autowired
+//	CommentService commentService;
 
 	/**
 	 * 获取博客文章列表
@@ -71,7 +70,7 @@ public class BlogAdminController {
 	public Result delete(@RequestParam Long id) {
 		blogService.deleteBlogTagByBlogId(id);
 		blogService.deleteBlogById(id);
-		commentService.deleteCommentsByBlogId(id);
+//		commentService.deleteCommentsByBlogId(id);
 		return Result.ok("删除成功");
 	}
 
