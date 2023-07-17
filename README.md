@@ -21,19 +21,11 @@
 ## 后端
 
 1. 核心框架：[Spring Boot](https://github.com/spring-projects/spring-boot)
-2. 安全框架：[Spring Security](https://github.com/spring-projects/spring-security)
-3. Token 认证：[jjwt](https://github.com/jwtk/jjwt)
-4. 持久层框架：[MyBatis](https://github.com/mybatis/spring-boot-starter)
-5. 分页插件：[PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
-6. NoSQL缓存：[Redis](https://github.com/redis/redis)
-7. Markdown 转 HTML：[commonmark-java](https://github.com/commonmark/commonmark-java)
-8. 离线 IP 地址库：[ip2region](https://github.com/lionsoul2014/ip2region)
-9. 定时任务：[quartz](https://github.com/quartz-scheduler/quartz)
-10. UserAgent 解析：[yauaa](https://github.com/nielsbasjes/yauaa)
-
-
-
-邮件模板参考自[Typecho-CommentToMail-Template](https://github.com/MisakaTAT/Typecho-CommentToMail-Template)
+2. Token 认证：[jjwt](https://github.com/jwtk/jjwt)
+3. 持久层框架：[MyBatis](https://github.com/mybatis/spring-boot-starter)
+4. 分页插件：[PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
+5. NoSQL缓存：[Redis](https://github.com/redis/redis)
+6. Markdown 转 HTML：[commonmark-java](https://github.com/commonmark/commonmark-java)
 
 基于 JDK8 开发，8以上要添加依赖：
 
