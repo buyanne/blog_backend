@@ -51,7 +51,7 @@ Vue 项目基于 @vue/cli5.x 构建
 [Element UI](https://github.com/ElemeFE/element)：后台 CMS 部分完全基于 Element UI 开发
 
 ### 前台 UI
-[Element UI](https://github.com/ElemeFE/element)：部分使用，一些小组件，弥补了 Semantic UI 的不足，便于快速实现效果
+[Element UI](https://github.com/ElemeFE/element)：部分使用
 ## 快速开始
 
 1. 创建 MySQL 数据库`blog`，并运行`blog.sql`初始化表数据
