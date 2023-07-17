@@ -60,13 +60,3 @@ Vue 项目基于 @vue/cli5.x 构建
 4. 启动后端SpringBoot服务
 5. 分别在`blog-ms`和`blog-view`目录下执行`npm install`安装依赖
 6. 分别在`blog-ms`和`blog-view`目录下执行`npm run serve`启动前后台页面
-
-
-
-## 注意事项
-
-- 本人使用的 MySQL 版本为5.5.61
-- 数据库中默认用户名密码为`admin`，`admin`，因为是个人博客，没打算做修改密码的页面，可在`util.HashUtils`下的`main`方法手动生成密码存入数据库
-- 注意修改`application-dev.yml`的配置信息
-  - Redis 若没有密码，留空即可
-  - 注意修改`token.secretKey`，否则无法保证 token 安全性
