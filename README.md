@@ -43,28 +43,15 @@
 
 核心框架：Vue2.x、Vue Router、Vuex
 
-Vue 项目基于 @vue/cli4.x 构建
-
-JS 依赖及参考的 css：[axios](https://github.com/axios/axios)、[moment](https://github.com/moment/moment)、[nprogress](https://github.com/rstacruz/nprogress)、[v-viewer](https://github.com/fengyuanchen/viewerjs)、[prismjs](https://github.com/PrismJS/prism)、[APlayer](https://github.com/DIYgod/APlayer)、[MetingJS](https://github.com/metowolf/MetingJS)、[lodash](https://github.com/lodash/lodash)、[mavonEditor](https://github.com/hinesboy/mavonEditor)、[echarts](https://github.com/apache/echarts)、[tocbot](https://github.com/tscanlin/tocbot)、[iCSS](https://github.com/chokcoco/iCSS)
-
+Vue 项目基于 @vue/cli5.x 构建
 
 
 ### 后台 UI
 
 [Element UI](https://github.com/ElemeFE/element)：后台 CMS 部分完全基于 Element UI 开发
 
-
-
 ### 前台 UI
-
-[Semantic UI](https://semantic-ui.com/)：主要使用，页面布局样式，语义化的 css，该框架 Vue 版的开发完成度不高，见 [Semantic UI Vue](https://semantic-ui-vue.github.io/#/)
-
 [Element UI](https://github.com/ElemeFE/element)：部分使用，一些小组件，弥补了 Semantic UI 的不足，便于快速实现效果
-
-文章排版：基于 [typo.css](https://github.com/sofish/typo.css) 修改
-
-
-
 ## 快速开始
 
 1. 创建 MySQL 数据库`blog`，并运行`blog.sql`初始化表数据
